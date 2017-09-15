@@ -1,0 +1,21 @@
+{
+  "tjeneste": {
+    "navn": "hb-springboot-sample",
+    "DeploymentConfig": {
+      "env": [
+      ],
+      "ports": [
+        {
+          "name": "http",
+          "port": 8080,
+          "protocol": "TCP",
+          "targetPort": 8080
+        }
+      ]
+    },
+    "Service": "hb-springboot-sample",
+    "route": {
+      "name": "hb-springboot-sample"
+    }
+  }
+}

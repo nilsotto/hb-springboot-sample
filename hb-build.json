@@ -1,0 +1,10 @@
+{
+  "system": "hb-springboot-sample",
+  "systemgruppe": "sandkasser",
+  "versjon": "0.0.1",
+  "navn": "hb-springboot-sample",
+  "sti": ".",
+  "maven": {"sonar": true, "deploy": false},
+  "docker": true,
+  "deploy": true
+}
